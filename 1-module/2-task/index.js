@@ -11,6 +11,13 @@ function print(text) {
  */
 function isValid(name) {
   // ваш код...
+    if (name.length < 4) {
+    return false;
+  } else if (name !== "") {
+    return true;
+  } else if (name.includes(" ")) {
+    return false;
+  } return true;
 }
 
 function sayHello() {
