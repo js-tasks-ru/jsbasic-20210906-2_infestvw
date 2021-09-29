@@ -7,7 +7,7 @@
 
 
 function namify(users) {
-    return users.map((item) => item.name);
+  return users.map((user) => user.name);
 }
 
 //let names = namify(users);
